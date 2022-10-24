@@ -6,8 +6,8 @@ import Node from "../assets/node.png";
 import Javascript from "../assets/javascript.png";
 import Java from "../assets/java.png";
 import HTML from "../assets/html.png";
-import Git from "../assets/html.png";
-import Firebase from "../assets/git.png";
+import Git from "../assets/git.png";
+import Firebase from "../assets/firebase.webp";
 import CSS from "../assets/css.png";
 import Image from "next/image";
 
