@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alkalami&family=Amatic+SC:wght@700&family=Caveat&family=Cedarville+Cursive&family=Comforter+Brush&family=Dancing+Script&family=Edu+NSW+ACT+Foundation&family=Fasthand&family=Fuzzy+Bubbles&family=Grape+Nuts&family=Inconsolata:wght@300&family=Inspiration&family=Island+Moments&family=Josefin+Sans:wght@200&family=Nanum+Gothic+Coding:wght@700&family=Neucha&family=Open+Sans:ital@1&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Caveat&family=Cedarville+Cursive&family=Comforter+Brush&family=Dancing+Script&family=Edu+NSW+ACT+Foundation&family=Fasthand&family=Fuzzy+Bubbles&family=Grape+Nuts&family=Inconsolata:wght@300&family=Inspiration&family=Nanum+Gothic+Coding:wght@700&family=Neucha&family=Open+Sans:ital@1&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Caveat&family=Cedarville+Cursive&family=Comforter+Brush&family=Dancing+Script&family=Edu+NSW+ACT+Foundation&family=Fasthand&family=Fuzzy+Bubbles&family=Grape+Nuts&family=Inconsolata:wght@300&family=Inspiration&family=Island+Moments&family=Josefin+Sans:wght@200&family=Nanum+Gothic+Coding:wght@700&family=Neucha&family=Open+Sans:ital@1&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Caveat&family=Cedarville+Cursive&family=Comforter+Brush&family=Dancing+Script&family=Edu+NSW+ACT+Foundation&family=Fasthand&family=Fuzzy+Bubbles&family=Grape+Nuts&family=Inconsolata:wght@300&family=Nanum+Gothic+Coding:wght@700&family=Neucha&family=Open+Sans:ital@1&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Caveat&family=Cedarville+Cursive&family=Comforter+Brush&family=Dancing+Script&family=Edu+NSW+ACT+Foundation&family=Fasthand&family=Fuzzy+Bubbles&family=Grape+Nuts&family=Inconsolata:wght@300&family=Nanum+Gothic+Coding:wght@700&family=Neucha&family=Open+Sans:ital@1&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Caveat&family=Cedarville+Cursive&family=Comforter+Brush&family=Dancing+Script&family=Edu+NSW+ACT+Foundation&family=Fasthand&family=Fuzzy+Bubbles&family=Grape+Nuts&family=Inconsolata:wght@300&family=Nanum+Gothic+Coding:wght@700&family=Neucha&family=Open+Sans:ital@1&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Caveat&family=Cedarville+Cursive&family=Comforter+Brush&family=Dancing+Script&family=Edu+NSW+ACT+Foundation&family=Fasthand&family=Fuzzy+Bubbles&family=Grape+Nuts&family=Inconsolata:wght@300&family=Nanum+Gothic+Coding:wght@700&family=Neucha&family=Open+Sans:ital@1&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alkalami&family=Caveat&family=Cedarville+Cursive&family=Comforter+Brush&family=Dancing+Script&family=Edu+NSW+ACT+Foundation&family=Fasthand&family=Fuzzy+Bubbles&family=Grape+Nuts&family=Inconsolata:wght@300&family=Inspiration&family=Island+Moments&family=Josefin+Sans:wght@200&family=Nanum+Gothic+Coding:wght@700&family=Neucha&family=Open+Sans:ital@1&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alkalami&family=Amatic+SC:wght@700&family=Caveat&family=Cedarville+Cursive&family=Comforter+Brush&family=Dancing+Script&family=Edu+NSW+ACT+Foundation&family=Fasthand&family=Fuzzy+Bubbles&family=Grape+Nuts&family=Inconsolata:wght@300&family=Inspiration&family=Island+Moments&family=Josefin+Sans:wght@200&family=Nanum+Gothic+Coding:wght@700&family=Neucha&family=Open+Sans:ital@1&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+@layer base {
+    body {
+        @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
+    }
+}
+
